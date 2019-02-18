@@ -6,7 +6,7 @@
 }
 
 nav {
-    background-color:#8A95A5;
+    background-color:#E0CA3C;
     height: 60px;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@ nav {
 }
 
 a{
-    color: #ffffff;
+    color: #333;
     text-decoration: none;
     font-size: 1.2em;
     margin-left: 15px;
@@ -29,7 +29,7 @@ a:hover {
 }
 
 header {
-    background-color: black;
+    background-color: #ffffff;
     height: 330px;
     display: flex;
     align-items: center;
@@ -37,8 +37,8 @@ header {
 }
 
 h1 {
-    color:#ffffff;
-    border: 3px solid #fff;
+    color:#333;
+    border: 3px solid #333;
     padding: 20px;
 
 }
@@ -69,6 +69,16 @@ h3 {
 }
 
 .right {
-    background-color: olivedrab;
+    background-color: #000F08;
     padding: 40px;
+}
+
+.right-p {
+    color: red;
+}
+
+footer {
+    background-color: darkred;
+    padding: 40px;
+    margin-left: -10px;
 }
